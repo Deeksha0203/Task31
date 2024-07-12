@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.header button{
+    padding: 10px;
+    width: 20%;
+    border-radius: 3px;
+    border: none;
+    text-align: left;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main button{
+    padding: 8px;
+    border-radius: 15px;
+    width: 100px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+#reject{
+    background-color: red;
+}
+
+.name{
+    display: flex;
+    gap: 10px;
+}
